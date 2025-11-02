@@ -3,6 +3,20 @@
 ## Regarding the work
 Once your work is complete, be sure to place a file named Progress.md in each directory you created and record or update the latest progress status. Manage your progress status within that file.
 When starting or resuming work on that section, check at the beginning of the task whether a Progress.md file exists in that directory. Understand the work status before commencing your work.
+# Progress.md Example
+
+## Status
+✅ Implemented feature logic  
+🟡 UI under review  
+❌ Test pending
+
+## Last Updated
+2025-11-02
+
+## Notes
+- Need to refactor list animation
+- Waiting for backend schema update
+
 To ensure consistency in UI elements, we want to create files like:
 lib/
  └── theme/
@@ -18,6 +32,7 @@ Design should be managed at the design system layer using files like these. Unle
 Submitting code with errors remaining in Flutter test and Flutter analyze is prohibited in this project.
 Therefore, if errors occur or tests fail during analysis or testing, please perform debugging work.
 If you encounter any questions or uncertainties during your work, be sure to consult the official documentation, reliable references, and the latest best practices, and follow them.
+
 
 ## Project Overview
 This is a cross-platform ToDo management app built with Flutter. It uses Riverpod for state management, Supabase for backend integration, and GoRouter for navigation. Focus on clean, reactive UI with proper error handling and testing. Target: iOS, Android, Web.
@@ -107,3 +122,4 @@ Test First: Write tests before new features.
 - Permissions: Read/write files, run tests/builds OK. No new deps/deletes without approval.
 - If stuck: Ask questions or create draft PR.
 - Security: Never commit secrets; use env vars for Supabase keys.
+
