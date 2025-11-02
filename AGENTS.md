@@ -3,6 +3,17 @@
 ## Regarding the work
 Once your work is complete, be sure to place a file named Progress.md in each directory you created and record or update the latest progress status. Manage your progress status within that file.
 When starting or resuming work on that section, check at the beginning of the task whether a Progress.md file exists in that directory. Understand the work status before commencing your work.
+To ensure consistency in UI elements, we want to create files like:
+lib/
+ ├── theme/
+ │    ├── app_colors.dart      // カラーパレット定義
+ │    ├── app_typography.dart  // テキストスタイル
+ │    ├── app_theme.dart       // ThemeDataをまとめる
+ │    └── app_spacing.dart     // 余白やradiusなど
+ └── main.dart
+Design should be managed at the design system layer using files like these. Unless instructed otherwise by the client, UI design must adhere to the existing design system to maintain overall consistency. Modifying or altering the existing design system without user approval is strictly prohibited in this project.
+Submitting code with errors remaining in Flutter test and Flutter analyze is prohibited in this project.
+Therefore, if errors occur or tests fail during analysis or testing, please perform debugging work.
 
 ## Project Overview
 This is a cross-platform ToDo management app built with Flutter. It uses Riverpod for state management, Supabase for backend integration, and GoRouter for navigation. Focus on clean, reactive UI with proper error handling and testing. Target: iOS, Android, Web.
