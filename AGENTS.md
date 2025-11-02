@@ -14,6 +14,7 @@ lib/
 Design should be managed at the design system layer using files like these. Unless instructed otherwise by the client, UI design must adhere to the existing design system to maintain overall consistency. Modifying or altering the existing design system without user approval is strictly prohibited in this project.
 Submitting code with errors remaining in Flutter test and Flutter analyze is prohibited in this project.
 Therefore, if errors occur or tests fail during analysis or testing, please perform debugging work.
+If you encounter any questions or uncertainties during your work, be sure to consult the official documentation, reliable references, and the latest best practices, and follow them.
 
 ## Project Overview
 This is a cross-platform ToDo management app built with Flutter. It uses Riverpod for state management, Supabase for backend integration, and GoRouter for navigation. Focus on clean, reactive UI with proper error handling and testing. Target: iOS, Android, Web.
