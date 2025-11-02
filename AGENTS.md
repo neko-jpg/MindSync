@@ -1,5 +1,8 @@
 # Flutter ToDo App - AGENTS.md
 
+## Regarding the work
+Once your work is complete, please be sure to record or add the latest progress to the file named Progress.md, and manage all progress updates centrally within that file.
+
 ## Project Overview
 This is a cross-platform ToDo management app built with Flutter. It uses Riverpod for state management, Supabase for backend integration, and GoRouter for navigation. Focus on clean, reactive UI with proper error handling and testing. Target: iOS, Android, Web.
 
