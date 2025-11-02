@@ -1,7 +1,8 @@
 # Flutter ToDo App - AGENTS.md
 
 ## Regarding the work
-Once your work is complete, please be sure to record or add the latest progress to the file named Progress.md, and manage all progress updates centrally within that file.
+Once your work is complete, be sure to place a file named Progress.md in each directory you created and record or update the latest progress status. Manage your progress status within that file.
+When starting or resuming work on that section, check at the beginning of the task whether a Progress.md file exists in that directory. Understand the work status before commencing your work.
 
 ## Project Overview
 This is a cross-platform ToDo management app built with Flutter. It uses Riverpod for state management, Supabase for backend integration, and GoRouter for navigation. Focus on clean, reactive UI with proper error handling and testing. Target: iOS, Android, Web.
